@@ -14,6 +14,7 @@
 		F63DADB121DF04B200E879A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63DADAF21DF04B200E879A1 /* LaunchScreen.storyboard */; };
 		F63DADBC21DF06ED00E879A1 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DADBB21DF06ED00E879A1 /* AppleProduct.swift */; };
 		F63DADBE21DF08BB00E879A1 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DADBD21DF08BB00E879A1 /* CustomPrettyView.swift */; };
+		F63DADC021DF0ED300E879A1 /* SamsungProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DADBF21DF0ED300E879A1 /* SamsungProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F63DADB221DF04B200E879A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F63DADBB21DF06ED00E879A1 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
 		F63DADBD21DF08BB00E879A1 /* CustomPrettyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrettyView.swift; sourceTree = "<group>"; };
+		F63DADBF21DF0ED300E879A1 /* SamsungProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				F63DADBB21DF06ED00E879A1 /* AppleProduct.swift */,
+				F63DADBF21DF0ED300E879A1 /* SamsungProduct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63DADC021DF0ED300E879A1 /* SamsungProduct.swift in Sources */,
 				F63DADBC21DF06ED00E879A1 /* AppleProduct.swift in Sources */,
 				F63DADA921DF04B100E879A1 /* Controller.swift in Sources */,
 				F63DADA721DF04B100E879A1 /* AppDelegate.swift in Sources */,
