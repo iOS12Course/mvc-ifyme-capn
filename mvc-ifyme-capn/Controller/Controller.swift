@@ -21,6 +21,14 @@ class Controller: UIViewController {
         iphoneNameLabel.text = appleProduct.name
         iphoneColorLabel.text = "in \(appleProduct.color)"
         iphonePriceLabel.text = "$\(appleProduct.price)"
+        
+        let progamLabel = UILabel(frame: CGRect(x: 30 , y: 700, width: 300, height: 20))
+        progamLabel.textAlignment = .center
+        progamLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        progamLabel.font = UIFont(name: "Avenir", size: 18)
+        progamLabel.text = "New programmatic label"
+        
+        view.addSubview(progamLabel)
     }
 
 
